@@ -1,0 +1,17 @@
+# Secrets
+.env
+*.key
+
+# Real documents - NEVER commit
+data/
+*.jpg
+*.jpeg
+*.png
+*.pdf
+!examples/*
+
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+venv/
