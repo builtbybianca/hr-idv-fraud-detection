@@ -4,8 +4,8 @@ A Python pipeline that analyzes EXIF metadata on identity documents submitted du
 HR onboarding to flag signs of digital manipulation. Designed and piloted in a live
 HR environment at a global cybersecurity software company.
 
-For the design reasoning — why EXIF heuristics, what the tradeoffs are, and where this
-goes next — see [docs/architecture.md](docs/architecture.md).
+For the design reasoning, why EXIF heuristics, what the tradeoffs are, and where this
+goes next; see [docs/architecture.md](docs/architecture.md).
 
 ## The Problem
 
@@ -57,7 +57,7 @@ See `examples/sample_report.txt` (synthetic test data).
 
 ## Limitations
 
-EXIF metadata is evadable — it can be forged or legitimately stripped (a screenshot has
+EXIF metadata is evadable, it can be forged or legitimately stripped (a screenshot has
 no camera data through no fault of the applicant). That's exactly why this is a triage
 layer that produces signals for human review, never a verdict. See
 [docs/architecture.md](docs/architecture.md) for the full discussion and roadmap.
@@ -65,5 +65,5 @@ layer that produces signals for human review, never a verdict. See
 ## Status
 
 Piloted on real onboarding workflows in a production HR environment. This public
-repository contains the analysis engine only — no pilot data, documents, or employee
+repository contains the analysis engine only, no pilot data, documents, or employee
 information of any kind.
