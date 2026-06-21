@@ -1,0 +1,22 @@
+IDV Metadata Analysis - 2026-06-01 09:15
+============================================================
+
+Document: test_document_01.jpg
+Risk score: 0/100
+Recommendation: No metadata flags
+
+Document: test_document_02.jpg
+Risk score: 70/100
+  - EDITOR TRACE: 'Software' field names editing tool (Adobe Photoshop 25.0)
+  - TIMESTAMP MISMATCH: capture time (2026:05:20 14:02:11) differs from
+    modification time (2026:05:28 22:47:03) - image altered after capture
+Recommendation: HUMAN REVIEW
+
+Document: test_document_03.png
+Risk score: 35/100
+  - STRIPPED METADATA: no camera fields present - consistent with screenshot,
+    export, or deliberate metadata removal
+Recommendation: HUMAN REVIEW
+
+============================================================
+Reminder: flags are signals for human review, never verdicts.
